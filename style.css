@@ -10,10 +10,10 @@ body {
   display: block;
   text-align: right;
 }
-.header img {
+.header__img {
   width: 100%;
 }
-.header .more-inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -122,12 +122,12 @@ li > label {
 li >    input[type="text"] {
   width: 226px;
 }
-button.delete img {
+.main__button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.main__button_delete img:hover {
   transform: rotateZ(0);
 }
 
@@ -142,11 +142,11 @@ ul li input[type=text] {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+ul li._mode_edit input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+ul ._mode_edit label {
   display: none;
 }
