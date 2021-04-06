@@ -136,7 +136,7 @@
 }
 
 /* Completed */
-#completed label .main__label {
+#completed .main__label {
   text-decoration: line-through;
   color: #888;
 }
